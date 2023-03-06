@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+    <FileVersion>1.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Octokit" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LSPD First Response">
+      <HintPath>..\..\Rich-Dunne\LSPDFR-Reborn\LSPDFR_Reborn\packages\LSPDFR\LSPD First Response.dll</HintPath>
+    </Reference>
+    <Reference Include="RagePluginHook">
+      <HintPath>..\..\Rich-Dunne\LSPDFR-Reborn\LSPDFR_Reborn\packages\RagePluginHook.1.98.0\lib\net472\RagePluginHook.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
